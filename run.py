@@ -5,6 +5,7 @@ print("------------------------------------------")
 print("1. knn")
 print("2. pca")
 print("3. decision tree")
+print("4. random forest")
 
 ch = int(input("Enter your choice : "))
 file = ""
@@ -14,6 +15,8 @@ elif ch == 2:
     file = "pca"
 elif ch == 3:
     file = "tic_tac_toe_decisiontree"
+elif ch == 4:
+    file = "mldecisiontree"
 else:
     print("wrong option")
     
